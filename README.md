@@ -41,16 +41,17 @@ Use the "Real-Time Job Scanner" page to scan individual job listings.
 Explore other features like retraining, explainability, and email alerts.
 
 Live Demo:
-The app is deployed on Streamlit Community Cloud. Check it out here: Live Demo URL (Update this link after deployment).
-Project Structure
+The app is deployed on Streamlit Community Cloud. Check it out here: 
+Live Demo URL: jobscamdetector-butekwdtwncv2mxhkmmx4m.streamlit.app
 
+Project Structure:
 app.py: Main Streamlit app file.
 requirements.txt: List of Python dependencies with specific versions.
 job_fraud_xgb_revised_threshold_0_2.pkl, tfidf_desc_revised.pkl, tfidf_comp_revised.pkl, tfidf_title_revised.pkl, fraud_rate.pkl: Pre-trained model and preprocessor files.
 
 Clone the Repository:
-git clone https://github.com/shubham-seven/job-scam-detector.git
-cd job-scam-detector
+git clone https://github.com/shubham-seven/JobScamDetector.git
+cd JobScamDetector
 
 Run the Streamlit App:
 Start the app with Streamlit:streamlit run app.py
